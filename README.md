@@ -35,7 +35,7 @@
 - Historical Crypotocurrency data : 
 - Source Data: Cryptowatch Api
 https://docs.cryptowat.ch/rest-api/markets/ohlc
-- The dataset has 7 columns and  300+ rows for 25 cyprocurrency coins 
+- The dataset has 7 columns and  300k+ rows for 25 cyprocurrency coins 
 - CloseTime  
 - OpenPrice   
 - HighPrice
