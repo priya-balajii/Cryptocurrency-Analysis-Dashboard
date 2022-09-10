@@ -1,5 +1,6 @@
 # **Cryptocurrency-Analysis-Dashboard**
 
+## Access Interative Power BI dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiZTVhNDMwMjYtOTRmNS00ZGQ2LTg0YzctYjE5YjYwMDAxNTk3IiwidCI6IjA4NDM5N2IzLTI1NWEtNGE5MC1hZDYyLTQyYmY1MmY2N2FhMCIsImMiOjF9&pageName=ReportSectionfef61ae5e9680a4a1ec0)
 
 # Use Case
 
@@ -53,15 +54,17 @@ https://docs.cryptowat.ch/rest-api/markets/ohlc
 - Dynamically select open price, close price, high price and low price
 - Used a combination chart of bar and line charts to visualize volume and price 
 - Date and Time Filters allows you to select a specific time frame or day of the week, month ans year to make analysis accurate
-
+![Image](img/overview.PNG)
 
 # Coin Comparison Screen:
 - Select Coin 1 and Coin 2, Compare the price trends and volume
 - Used multiple line charts to compare price and bar chart to compare volume
 - Dynamically select open price, close price, high price and low price
 - Date and Time Filters allows you to select a specific time frame for analysis
+![Image](img/CoinCompare.PNG)
 
 # Scenario Builder Screen
 - Select coin, volume and date
 - Analyze the current price, profit/loss of your investments 
+![Image](img/ScenarioBuilder.PNG)
 
