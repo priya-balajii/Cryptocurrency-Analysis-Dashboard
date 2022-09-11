@@ -6,9 +6,9 @@
 
 - Objective Statement:
   * Dynamic Cryptocurrency Analysis Dashboard using Power Bi and DAX language
-  * To Analyze historical performance of 25 cryptocurrencies and their volume.
-  * To compare price and volume of 2 user selected cryptocurrencies and thier volume.
-  * Scenario builder, that let's you choose volume and purchase date of a coin and see the present value of that purchase
+  * Screen 1 : To Analyze historical performance of 25 cryptocurrencies and their volume.
+  * Screen 2 : To compare price and volume of 2 user selected cryptocurrencies and thier volume.
+  * Screen 3 : Scenario builder, that let's you choose volume and purchase date of a coin and see the present value of that purchase
 
 - Methodology / Analytic Technique:
   * Descriptive analysis
@@ -51,12 +51,14 @@ https://docs.cryptowat.ch/rest-api/markets/ohlc
 - Used "Invoke custom function" to retrieve historical data of 25 coins 
 
 # Overview Screen Features :
+- This view allows you to look at a variety of metrics pertaining to the performance of the currencies in aggregate over time or select specific coins of interest.
 - Dynamically select open price, close price, high price and low price
 - Used a combination chart of bar and line charts to visualize volume and price 
 - Date and Time Filters allows you to select a specific time frame or day of the week, month ans year to make analysis accurate
 ![Image](img/overview.PNG)
 
 # Coin Comparison Screen:
+- This allows you to select two cryptocurrencies to compare against each other, for all the metrics listed in the overview view.
 - Select Coin 1 and Coin 2, Compare the price trends and volume
 - Used multiple line charts to compare price and bar chart to compare volume
 - Dynamically select open price, close price, high price and low price
@@ -64,7 +66,7 @@ https://docs.cryptowat.ch/rest-api/markets/ohlc
 ![Image](img/CoinCompare.PNG)
 
 # Scenario Builder Screen
-- Select coin, volume and date
+- This view allows you to choose a purchase date and volume and run scenarios for what that purchase would be worth in today's dollars, based on the value of the coin selected.
 - Analyze the current price, profit/loss of your investments 
 ![Image](img/ScenarioBuilder.PNG)
 
